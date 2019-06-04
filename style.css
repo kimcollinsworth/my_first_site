@@ -16,3 +16,15 @@ a {
 a:hover {
   color: slategray;
 }
+
+ul {
+  padding-inline-start: 0px;
+  list-style-type: none;
+}
+li {
+  display: inline;
+  padding: 7px;
+}
+li:first-of-type {
+  padding-left: 0px;
+}
